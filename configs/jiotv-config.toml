@@ -2,7 +2,7 @@
 # All fields mentioned below are optional.
 
 # Enable Or Disable EPG Generation. Default: false
-epg = false
+epg = true 
 
 # Enable Or Disable Debug Mode. Default: false
 debug = false
@@ -14,14 +14,14 @@ disable_ts_handler = false
 disable_logout = false
 
 # Enable Or Disable DRM. As DRM is not supported by most of the players, it is disabled by default. Default: false
-drm = false
+drm = true
 
 # Title of the webpage. Default: JioTV Go
 title = ""
 
 # Enable Or Disable URL Encryption. URL Encryption prevents hackers from injecting URLs into the server. Default: true
 # If you think it is unnecessary, you can disable it. But it is recommended to enable it.
-disable_url_encryption = false
+disable_url_encryption = true
 
 # Folder path for all JioTV Go related files. 
 path_prefix = ""
